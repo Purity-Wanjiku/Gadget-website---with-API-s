@@ -176,6 +176,40 @@ body{
   font-size: 100%;
   margin-left: 20px;
 }
+/* more icons */
+.grid-container {
+  display: flex;
+  justify-content: space-container;
+  margin: 0 130px;
+}
+.grid-item {
+  flex: 1;
+  border-radius: 5px;
+  color: #000;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+.grid-item p {
+  margin-top: 10px;
+}
+.grid-item.black-background {
+  background-color: #000;
+  color: white;
+}
+
+
+
+
+
+
+
 /* 2*4 block */
 .head2{
   color: #000;

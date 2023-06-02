@@ -1,0 +1,358 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#txt{
+    color: rgb(243, 243, 33);
+}
+.header{
+    background-color: #3d3a3a;
+    /* display: flex; */
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 4em;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+.btn1{
+    background-color: rgb(243, 243, 33);
+    padding: 20px 35px;
+    margin-top: -10px;
+    font-weight: 800;
+    border-color: transparent;
+}
+#icon{
+    margin-left: 250px;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+#gridicon{
+  color: rgb(243, 243, 33);
+}
+.grid{
+  margin-left: 70px;
+  display: flex;
+}
+.grid-menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  /* padding-right: 60px; */
+  padding: 1px 100px;
+  border: 2px solid gray;
+  margin-top: 12px;
+}
+
+.box {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc; /* Default color for boxes */
+}
+
+.box:nth-child(1) {
+  margin-top: 13px;
+  margin-left: -90px;
+  border-radius: 2px;
+  background-color: rgb(243, 243, 33); /* First box color */
+}
+
+.box:nth-child(2) {
+  border-radius: 2px;
+  margin-top: 13px;
+  margin-left: -5em;
+  background-color: black; /* Second box color */
+}
+.box:nth-child(3) {
+  margin-left: -90px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  background-color: black; /* Second box color */
+}
+.box:nth-child(4) {
+  border-radius: 2px;
+  margin-left: -5em;
+  background-color: rgb(243, 243, 33); /* Second box color */
+}
+
+/* search input */
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+.search-input {
+  border:  2px solid gray;
+  padding-left: 5em;
+  color: gray;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.search-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 180px;
+}
+
+.material-icons {
+  font-family: 'Material Icons'; /* Assuming you have included the Google Icons CSS file */
+  font-size: 24px;
+  padding-top: 15px;
+  color: #000; /* Adjust icon color as needed */
+}
+#category{
+  color: #000;
+  border-left:1px solid grey;
+  padding-top: 20px;
+  height: 36px;
+  padding-left: 10px;
+  position: relative;
+  bottom: 16px;
+  margin-top: -40px;
+  margin-left: 60px;
+}
+/* block with gadgets */
+.block2{
+  background: conic-gradient(from 0deg at 50% 50%, #6fc2d7 0%, #9b7891 100deg, #9eacef 360deg);
+  /* background-color: blue; */
+  /* background: radial-gradient(circle, #6fc2d7, #9b7891, #9eacef); */
+  /* width: 20%; */
+  justify-content: flex-end;
+  display: flex;
+  margin-left: 70px;
+  margin-right: 100px;
+  border-radius: 5px;
+  height: 10%;
+
+}
+.head{
+  color: rgb(37, 37, 37);
+  font-size: 280%;
+  /* border: solid; */
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#context{
+  color: rgb(75, 70, 70);
+  padding-left: 30px;
+}
+.btn2{
+  background-color: rgb(243, 243, 33);
+  padding: 20px 35px;
+  margin-top: -10px;
+  font-weight: 800;
+  border-color: transparent;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.btn3{
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 20px 23px;
+  color: white;
+  font-size: 100%;
+  margin-left: 20px;
+}
+/* 2*4 block */
+.head2{
+  color: #000;
+  margin-left: 70px;
+}
+#offer2{
+  font-weight: 400;
+  font-size: small;
+  color: #3d3a3a;
+}
+.header2{
+  width: 100%;
+  height: 120%;
+  background-color: #f1eded;
+}
+#btn4{
+  background-color: #3d3a3a;
+  color: rgb(243, 243, 33);
+  padding: 5px 15px;
+  margin-left: 5px;
+  border: transparent;
+}
+#view{
+  margin-left: 700px;
+  margin-top: 30px;
+  color: rgb(37, 37, 37);
+}
+.H{
+  display: flex;
+}
+
+/* STYLE 2*4 */
+#allContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.people{
+  border: solid rgb(216, 218, 216);
+  margin-bottom: 2%;
+  text-align: center;
+  border-radius: 5px;
+}
+/* 2*4 block */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* two image blocks  */
+#img2{
+  /* width: 20%; */
+display: flex;
+gap: 1.5em;
+margin: 55px 0;
+}
+#img-a{
+margin-left: 70px;
+  width: 40%;
+  height: 40%;
+}
+
+/* one image block */
+.block4{
+background: conic-gradient(from 0deg at 50% 50%, #6fc2d7 0%, #9b7891 100deg, #9eacef 360deg);
+/* background: radial-gradient(circle, #6fc2d7, #9b7891, #9eacef); */
+padding-left: 30px;
+width: 82%;
+justify-content: flex-end;
+display: flex;
+padding-top: 30px;
+margin-bottom: 55px;
+margin-left: 100px;
+border-radius: 5px;
+/* height: 10%; */
+}
+.block3{
+  display: flex;
+}
+#img5{
+  margin-top: -50px;
+  transform: rotate(-35deg);
+}
+#controller{
+  color: #000;
+}
+#context2{
+  color: rgb(75, 70, 70);
+}
+#offer{
+  color: rgb(243, 243, 33);
+}
+/* footer  */
+.footer{
+  color: white;
+  background-color: #3d3a3a;
+justify-content: space-between;
+display: flex;
+padding: 0 40px;
+
+}
+
+#co{
+  display: inline-flex;
+  font-size: larger;
+  color: white;
+  font-size: 180%;
+}
+#Home{
+  color: yellow;
+}
+   
+.mail{
+  padding: 30px;
+  background-color: yellow;
+  border:none;
+  width: 90%;
+}
+.bx-send{
+  margin-left: -30px;
+}
+.bx-headphone{
+ width: 8%;
+}
+.line-container {
+  position: relative;
+}
+/* .line {
+  height: 1px;
+  background-color: #000;
+  width: 70%;
+  margin-left: 60px;
+  margin-right: 50px;
+} */
+.line {
+  height: 2px;
+  background-color: #000;
+  width: 50%;
+  margin-left: 100px;
+  margin-right: 10px;
+  position: relative;
+  left: 100px;
+}
+.line:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: yellow;
+  width: 90px;
+  height: 2px;
+}
+.yellow{
+  display: grid;
+      grid-template-columns: repeat(3,1fr);
+}
+.test{
+  text-align: center;
+}
+.zu{
+  margin-left: 600px;
+  margin-top: -150px;
+}
+.men img{
+
+ border-radius: 6px;
+
+}
+/* footer  */
